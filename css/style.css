@@ -109,10 +109,23 @@ body {
 }
 
 .contact-container {
+    background:salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 0;
+
 
 }
 
 .contact-content {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px
 
 }
 .footer-container {
@@ -134,7 +147,8 @@ body {
 /* Links and Link Buttons
 ========================================================================== */
 a {
-    text-decoration: none;
+    color: #F1F1F1;
+    text-decoration: underline;
 }
 
 a:visited {
@@ -197,7 +211,7 @@ a:hover, a:active {
     max-width: 180px;
     background: salmon;
     color: #1b1b27;
-    border: 2px solid #f08527;
+    border: 2px solid #f9eee4;
     border-radius: 12px;
     padding: 12px 24px;
     font-family: 'Roboto Condensed', sans-serif;
