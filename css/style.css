@@ -246,11 +246,14 @@ a:hover, a:active {
 
 .hero-content h1 {
     font-family: 'Roboto Condensed', sans-serif;
+
     font-size: 48px;
     color:salmon;
+    text-shadow: 2px 2px 4px black;
     line-height: 1;
     margin: 0 0 24px 0;
     text-transform: uppercase;
+    
 }
 
 .hero-content p {
@@ -258,6 +261,8 @@ a:hover, a:active {
     font-size: 18px;
     color:salmon;
     line-height: 1.5;
+    text-shadow: 2px 2px 4px black; 
+    
 }
 
 section h2 {
